@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.clearfix::after{
+    content:"";
+    display:block;
+    clear: both;
+}
+main{
+    margin: 0 auto;
+}
+.space{
+    width: 100%;
+    height: 50px;
+}
+.center{
+    width: 960px;
+    height: 500px;
+    margin: 0 auto;
+}
+.step1{
+    float: left;
+    width: 300px;
+    height:380px;
+    border: 1px solid rgba(100, 100, 100, 0.5);
+}
+.step2{
+    float: left;
+    width: 300px;
+    height:380px;
+    border: 1px solid rgba(100, 100, 100, 0.5);
+    margin: 0 30px;
+}
+.step3{
+    float: left;
+    width: 300px;
+    height:380px;
+    border: 1px solid rgba(100, 100, 100, 0.5);
+}
+.image1{
+    margin:10px;
+    width:280px;
+    height:150px;
+    background-image:url(img/flow01.png);
+    background-size: 280px auto;
+    background-position: bottom;
+}
+.image2{
+    margin:10px;
+    width:280px;
+    height:150px;
+    background-image:url(img/flow02.png);
+    background-size: 280px auto;
+    background-position: bottom;
+}
+.image3{
+    margin:10px;
+    width:280px;
+    height:150px;
+    background-image:url(img/flow03.png);
+    background-size: 280px auto;
+    background-position: bottom;
+}
+.tag{
+    position:absolute;
+    width: 48px;
+    height: 27px;
+    line-height:27px;
+    font-size: 20px;
+    color: white;
+    background-color: orange;
+    padding: 0 0 0 4px;
+}
+.doc{
+    margin: 0 10px;
+    width:280px;
+}
+
+@media screen and (max-width: 768px){
+    .center{
+        width: 90%;
+        height: 90%;
+        margin: 0 10%;
+    }
+    .step1{
+        width: 90%;
+        height: auto;
+        float: none;
+    }
+    .step2{
+        width: 90%;
+        height: auto;
+        margin: 20px 0;
+        float: none;
+    }
+    .step3{
+        width: 90%;
+        height: auto;
+        float: none;
+    }
+    .image1{
+        width: 90%;
+        background-size: cover;
+        background-position: bottom;
+    }
+    .image2{
+        width: 90%;
+        background-size: cover;
+        background-position: bottom;
+    }
+    .image3{
+        width: 90%;
+        background-size: cover;
+        background-position: bottom;
+    }
+    .doc{
+        width: 90%;
+        height: none;
+    }
+}
