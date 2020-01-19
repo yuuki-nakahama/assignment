@@ -1,0 +1,136 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     color: #6c6b6b;
+ }
+
+ .clearfix::after{
+     content: "";
+     display: block;
+     clear: both;
+ }
+
+ .top-title{
+     width: 100;
+     height: 30px;
+     padding:0;
+     margin: 30px;
+     font-size: 14px;
+     color: #000000;
+ }
+
+ .top-text{
+     width:400px;
+     height: 100px;
+     padding: 0px;
+     margin: 20px 50px;
+     line-height: 40px; /*行間の調整*/
+     font-size: 13px;
+     color: #000000;
+ }
+
+
+ .index-top{
+     width: 200px;
+     height: 30px;
+     margin: 30px 0 10px 30px;
+     font-size: 14px;
+ }
+
+/*indexの記述*/
+
+main{
+    width: 100%;
+    margin: 0 20px;
+    padding: 0 0 10px 0;
+}
+
+table {
+    margin: 15px;
+  }
+table th{
+    text-align: center;
+    padding: 0 5px;
+}
+table td{
+    text-align: left;
+    padding: 0 5px;
+}
+
+.flash{
+    color: green;
+}
+
+.show{
+    margin: 25px;
+    font-size: 13px;
+}
+.show-main{
+    margin: 0 0 0 40px;
+}
+
+.show-group{
+    margin: 30px 0;
+}
+
+.edit{
+    margin: 25px;
+    font-size: 13px;
+}
+
+.edit-menu{
+    display: inline;
+    margin: 1px;
+}
+
+/*newについての記述*/
+.errore{
+    width: 420px;
+    border: 2px solid red;
+    background-color: rgba(230,230,230,1);
+}
+.errore-title{
+    padding: 0 0 0 10px;
+    color: white;
+    background-color: red;
+}
+.errore-list{
+    margin: 5% auto 5% 50px;
+}
+.errore-Title{
+    margin: 5px 0;
+}
+.errore-Title-up{
+    width: 45px;
+    background-color: red;
+}
+.errore-Title-down{
+    width: 179px;
+    border: 3px solid red;
+}
+.errore-Body-up{
+    width: 50px;
+    background-color: red;
+}
+.errore-Body-down{
+    width: 165px;
+    border: 3px  solid red;
+    border-bottom-width: 9px;
+}
