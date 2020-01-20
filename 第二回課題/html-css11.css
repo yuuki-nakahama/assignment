@@ -1,0 +1,749 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+header{
+    background-color: #EC715F;
+}
+.ham-menu{
+    display: none;
+}
+.ham-in{
+    display: none;
+}
+.header-main{
+    width: 1024px;
+    height: 70px;
+    margin: 0 auto;
+    background-color: #EC715F;
+}
+.mysite{
+    width: 120px;
+    height: 70px;
+    background-image: url(img/logo.png);
+    background-size:cover;
+    background-position: center;
+    float: left;
+}
+nav{
+    float: right;   
+    text-align: center;
+}
+.nav-list{
+    text-align: center;
+}
+.nav-list-item{
+    margin: 0 30px;
+    list-style: none;
+    display: inline-block;
+    line-height: 70px;
+    color: #FAFAFA;
+    font-size: 16px;
+}
+.main-top{
+    width: 100%;
+    height: 650px;
+    background-image: url(img/mv.png);
+    background-size: cover;
+    background-position: left;
+    padding: 200px 0 0;
+}
+
+.doc-top{
+    font-size: 64px;
+    color: #FAFAFA;
+    text-align: center;
+}
+.doc-bottom{
+    margin: 10px 0 0;
+    font-size: 20px;
+    text-align: center;
+    color: #FAFAFA;
+}
+
+.main-2{
+    background-color: #ECEFF1;
+}
+.main-2-center{
+    width: 920px;
+}
+.por{
+    padding:90px 0 8px;
+    font-size: 32px;
+    color: #000000;
+    text-align: center;
+}
+.line{
+    margin: 0 auto;
+    width: 70px;
+    border-bottom: 3px solid #EC715F;
+}
+.doc{
+    margin: 30px 0;
+    text-align: center;
+    font-size: 16px;
+    color: #000000;
+}
+.image-box{
+    width: 920px;
+    margin: 0 auto;
+}
+.box-line1{
+    padding:0 0 10px;
+}
+.box-line2{
+    padding: 0 0 90px;
+}
+.box1{
+    width: 300px;
+    height: 250px;
+    background-image: url(img/sketch.jpg);
+    background-size: cover;
+    background-position: center;
+    float: left;
+}
+.box2{
+    width: 300px;
+    height: 250px;
+    margin: 0 10px;
+    background-image: url(img/websuku.png);
+    background-size: cover;
+    background-position: center;
+    float: left;
+}
+.box3{
+    width: 300px;
+    height: 250px;
+    background-image: url(img/write.jpg);
+    background-size: cover;
+    background-position: center;
+    float: left;
+}
+.box4{
+    width: 300px;
+    height: 250px;
+    background-image: url(img/webcamp.png);
+    background-size: cover;
+    background-position: center;
+    float: left;
+}
+.box5{
+    width: 300px;
+    height: 250px;
+    margin: 0 10px;
+    background-image: url(img/talk.jpg);
+    background-size: cover;
+    background-position: center;
+    float: left;
+}
+.box6{
+    width: 300px;
+    height: 250px;
+    background-image: url(img/webcamp-mother.png);
+    background-size: cover;
+    background-position: center;
+    float: left;
+}
+
+.main-3-center{
+    width: 980px;
+}
+.fea{
+    margin:90px 8px 0;
+    font-size: 32px;
+    color: #000000;
+    text-align: center;
+}
+.fea-line{
+    margin: 0 auto;
+    width: 70px;
+    border-bottom: 3px solid #EC715F;
+}
+.fea-line1{
+    width: 980px;
+    margin: 0 auto;
+    padding: 0 0 90px;
+}
+.fea1{
+    width: 320px;
+    height:auto;
+    float:left;
+}
+.fea2{
+    width:320px;
+    height: auto;
+    margin: 0 10px;
+    float: left;
+}
+.fea3{
+    width:320px;
+    height: auto;
+    float: left;
+}
+.social{
+    font-size: 60px;
+    text-align: center;
+    font-size: 60px;
+    text-align: center;
+}
+.fea-til{
+    margin: 10px 0;
+    text-align: center;
+    font-size:20px;
+    color: #000000;
+}
+.fea-doc{
+    font-size: 16px;
+    color: #000000;
+}
+
+
+
+.main-profile {
+	width: 100%;
+	background-color: #ECEFF1;
+}
+
+.profile-text1 {
+    text-align: center;
+	padding-top: 90px;
+	font-size: 32px;
+	color: #000000;
+}
+.profile-border {
+	width: 70px;
+	height: 3px;
+	background-color: #EC715F;
+	margin-bottom: 8px;
+	margin: 0 auto;
+}
+.profile-text2 {
+    text-align: center;
+	padding-top: 30px;
+	font-size: 16px;
+	color: #000000;
+}
+.profile-space {
+	width: 100%;
+	height: 30px;
+}
+.profile-main {
+	width: 1024px;
+	margin: 0 auto;
+}
+.profile-img {
+	width: 512px;
+	height: 250px;
+	float: left;
+}
+.profile-img1 {
+	width: 250px;
+	height: 250px;
+	background-image: url(img/my-icon.jpg);
+	background-size: cover;
+    margin: 0 auto;
+	border-radius: 50%;
+}
+.profile-textbox {
+	width: 512px;
+	height: 250px;
+    float: left;
+}
+
+.profile-text3 {
+	font-size: 20px;
+	color: #000000;
+}
+
+.profile-space1 {
+	height: 5px;
+}
+.profile-text4 {
+	font-size: 16px;
+	color: #000000;
+}
+.profile-space2 {
+	height: 20px;
+}
+
+.profile-text5 {
+	font-size: 20px;
+	color: #000000;
+}
+.profile-text6 {
+	font-size: 16px;
+	color: #000000;
+}
+.profile-space3 {
+	height: 90px;
+	background-color: #ECEFF1;
+}
+
+.contact {
+	width: 800px;
+	margin: 0 auto;
+}
+.contact-text1 {
+    text-align: center;
+	padding-top: 90px;
+	font-size: 32px;
+	color: #000000;
+}
+
+.contact-border {
+	width: 70px;
+	height: 3px;
+	background-color: #EC715F;
+	margin-bottom: 8px;
+	margin: 0 auto;
+}
+.contact-space1 {
+	height: 30px;
+}
+.contact-text2 {
+	font-size: 16px;
+	color: #000000;
+	text-align: center;
+}
+.contact-textbox {
+	width: 400px;
+	float: left;
+}
+.contact-text3 {
+	font-size: 20px;
+	color: #000000;
+	text-align: center;
+}
+.contact-textspace1 {
+	height: 5px;
+}
+.mail {
+	font-size: 16px;
+	color: #000000;
+	text-align: center;
+}
+
+.contact-textspace2 {
+	height: 20px;
+}
+.contact-text4 {
+	font-size: 20px;
+	color: #000000;
+	text-align: center;
+}
+.tel {
+	font-size: 16px;
+	text-align: center;
+}
+
+.contact-awebox {
+    width: 400px;
+	float: left;
+}
+.sns {
+	font-size: 20px;
+	margin-left: 125px;
+	color: #000000;
+}
+
+.contact-social2 {
+	text-align: center;
+}
+
+.contact-social2 i {
+	display: inline-block;
+	margin-left: 20px;
+	font-size: 50px;
+}
+.contact-space3 {
+	height: 90px;
+}
+
+footer {
+	width: 100%;
+	height: 60px;
+	background-color: #EC715F;
+}
+.footer-text {
+	font-size: 16px;
+	color: #FAFAFA;
+	text-align: center;
+	padding: 22px;
+}
+
+@media screen and (max-width:767px){
+    #ham-menu {
+    background-color: #fff; /*メニュー背景色*/
+    box-sizing: border-box;
+    height: 100%;
+    padding: 10px 40px; /*メニュー内部上下左右余白*/
+    position: fixed;
+    right: -300px; /*メニュー横幅①と合わせる*/
+    top: 0;
+    transition: transform 0.3s linear 0s; /*0.3s は変化するのにかかる時間*/
+    width: 300px; /*メニュー横幅①*/
+    z-index: 1000;
+}
+
+/*メニューアイコン部分は疑似要素で*/
+#ham-menu::before {
+    color: white; /*アイコン（フォント）色*/
+    content: "≡"; /*メニューアイコン*/
+    display: block;
+    font-size: 35px; /*アイコン（フォント）サイズ*/
+    height: 36px;
+    line-height: 36px; /*縦位置中央化*/
+    position: absolute;
+    right: 105%;
+    text-align: center;
+    top: 5px;
+    width: 40px;
+    border: 2px solid white;
+}
+
+
+/*hover 時の処理*/
+#ham-menu:hover {
+    transform: translate(-300px); /*メニュー横幅①と合わせる*/
+}
+
+#ham-menu:hover + #menu-background {
+    opacity: 0.5; 
+    z-index: 999;
+}
+.ham-in{
+    display: inline;
+}
+
+
+
+    .nav-list{
+        display: none;
+    }
+    .header-main{
+        padding: 0 5% 0;
+        height: 50px;
+    }
+    .mysite{
+    width: 85px;
+    height: 50px;
+    background-image: url(img/logo.png);
+    background-size:cover;
+    background-position: center;
+    float: left;
+}
+    .main-top{
+        background-image: url(img/code.png);
+        background-position: center;
+    }
+    .doc-top{
+        width: 90%;
+        text-align: center;
+        font-size: 40px;
+        font-family: sens-serif; 
+    }
+    .doc-bottom{
+        width: 90%;
+        text-align: center;
+    }
+
+
+    .main-2{
+        width: 100%;
+        background-color: #ECEFF1;
+    }
+    .main-2-center{
+        width: 100%;
+        background-color: red; 
+    }
+
+    .image-box{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .doc{
+        width: 90%;
+        margin: 0 auto ;
+    }
+    .box-line1{
+        padding:0;
+    }
+    .box-line2{
+        padding: 0;
+    }
+    .box1{
+        display: none;
+    }
+    .box2{
+        width: 300px;
+        height: 250px;
+        margin: 0 auto 5px;
+        background-image: url(img/websuku.png);
+        background-size: cover;
+        background-position: center;
+        float: none;
+    }
+    .box3{
+        display: none;
+    }
+    .box4{
+        width: 300px;
+        height: 250px;
+        margin: 5px auto;
+        background-image: url(img/webcamp.png);
+        background-size: cover;
+        background-position: center;
+        float: none;
+    }
+    .box5{
+        display: none;
+    }
+    .box6{
+        width: 300px;
+        height: 250px;
+        margin: 5px auto;
+        background-image: url(img/webcamp-mother.png);
+        background-size: cover;
+        background-position: center;
+        float: none;
+    }
+
+    .main-3{
+        padding: 0 5% 0;
+    }
+    .main-3-center{
+        width: 100%;
+    }
+    .fea{
+        margin:90px 8px 0;
+        font-size: 32px;
+        color: #000000;
+        text-align: center;
+    }
+    .doc{
+        width: 90%;
+        margin: 30px auto 20px;
+    }
+    .fea-line{
+        margin: 0 auto;
+        width: 70px;
+        border-bottom: 3px solid #EC715F;
+    }
+    .fea-line1{
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 0 90px;
+    }
+    .fea1{
+        width: 100%;
+        height:auto;
+        float:none;
+        margin: 0 auto 5px;
+    }
+    .fea2{
+        width:100%;
+        height: auto;
+        margin: 5px auto;
+        float: none;
+    }
+    .fea3{
+        width: 100%;
+        height: auto;
+        margin: 5px auto 0;
+        float: none;
+    }
+    .social{
+        font-size: 60px;
+        text-align: center;
+        font-size: 60px;
+        text-align: center;
+    }
+    .fea-til{
+        margin: 10px 0;
+        text-align: center;
+        font-size:20px;
+        color: #000000;
+    }
+
+    .main-profile {
+        width: 100%;
+        padding: 0 5% 0;
+        background-color: #ECEFF1;
+    }
+    
+    .profile-text1 {
+        text-align: center;
+        padding-top: 90px;
+        font-size: 32px;
+        color: #000000;
+    }
+    .profile-border {
+        width: 70px;
+        height: 3px;
+        background-color: #EC715F;
+        margin-bottom: 8px;
+        margin: 0 auto;
+    }
+    .profile-text2 {
+        text-align: center;
+        padding-top: 30px;
+        font-size: 16px;
+        color: #000000;
+    }
+    .profile-space {
+        width: 100%;
+        height: 30px;
+    }
+    .profile-main {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .profile-img {
+        width: 100%;
+        height: 250px;
+        float: none;
+        margin: 0 auto;
+    }
+    .profile-img1 {
+        width: 250px;
+        height: 250px;
+        background-image: url(img/my-icon.jpg);
+        background-size: cover;
+        margin: 0 auto;
+        border-radius: 50%;
+    }
+    .profile-textbox {
+        width: 100%;
+        height: auto;
+        float: none;
+        margin: 20px auto 0;
+        padding: 0 0 90px;
+    }
+    
+    .profile-text3 {
+        text-align: center;
+        font-size: 20px;
+        font-family: arial;
+        color: #000000;
+    }
+    
+    .profile-space1 {
+        height: 5px;
+    }
+    .profile-text4 {
+        text-align: center;
+        font-size: 16px;
+        color: #000000;
+    }
+    .profile-space2 {
+        height: 20px;
+    }
+    
+    .profile-text5 {
+        text-align: center;
+        font-size: 20px;
+        font-family: arial;
+        color: #000000;
+    }
+    .profile-text6 {
+        text-align: center;
+        font-size: 16px;
+        color: #000000;
+    }
+    .profile-space3 {
+        display: none;
+    }
+
+
+    .contact {
+        width: 100%;
+        padding: 0 5%;
+        margin: 0 auto;
+    }
+    .contact-text1 {
+        text-align: center;
+        padding-top: 90px;
+        font-size: 32px;
+        color: #000000;
+    }
+    
+    .contact-border {
+        width: 70px;
+        height: 3px;
+        background-color: #EC715F;
+        margin-bottom: 8px;
+        margin: 0 auto;
+    }
+    .contact-space1 {
+        height: 30px;
+    }
+    .contact-text2 {
+        font-size: 16px;
+        color: #000000;
+        text-align: center;
+    }
+    .contact-textbox {
+        width: 100%;
+        float: none;
+        margin: 0 auto 20px;
+    }
+    .contact-text3 {
+        font-size: 20px;
+        color: #000000;
+        text-align: center;
+    }
+    .contact-textspace1 {
+        height: 5px;
+    }
+    .mail {
+        font-size: 16px;
+        color: #000000;
+        text-align: center;
+    }
+    
+    .contact-textspace2 {
+        height: 20px;
+    }
+    .contact-text4 {
+        font-size: 20px;
+        color: #000000;
+        text-align: center;
+    }
+    .tel {
+        font-size: 16px;
+        text-align: center;
+    }
+    
+    .contact-awebox {
+        width: 100%;
+        float: none;
+        margin: 0 auto;
+    }
+    .sns {
+        font-size: 20px;        
+        text-align: center;
+        margin: 0 auto;
+        color: #000000;
+    }
+    
+    .contact-social2 {
+        text-align: center;
+    }
+    
+    .contact-social2 i {
+        display: inline-block;
+        margin-left: 20px;
+        font-size: 50px;
+    }
+    .contact-space3 {
+        height: 90px;
+    }
+  }
